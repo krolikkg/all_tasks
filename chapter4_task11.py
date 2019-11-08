@@ -14,7 +14,7 @@ def decorator(func):
     return wrapper
 
 class User:
-    username = 'akram'
+    username = 'Mederbek'
     password = 'qwerty'
 
     def get_account_balance(self, input_username):
