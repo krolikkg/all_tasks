@@ -1,0 +1,11 @@
+word = input("write your word: ")
+word_ = word[::-1]
+print("1 line: ", word[2:3])
+print("2 line: ", word[-2:-1])
+print("3 line: ", word[:5])
+print("4 line: ", word[-2:])
+print("5 line: ", word[::2])
+print("6 line: ", word[1::2])
+print("7 line: ", word[::-1])
+print("8 line: ", word_[::2])
+print(f"9 line, length of {word} are {len(word)}")
